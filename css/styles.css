@@ -510,6 +510,12 @@ footer {
   padding: 30px 15px;
   transform: none;
 }
+.no-image .awards-info-left {
+  position: relative;
+  margin: 0;
+  padding: 30px 15px;
+  transform: none;
+}
 #more-projects {
   display: none;
 }
@@ -556,9 +562,6 @@ footer {
 .awards-info-left h3 {
   text-align: center;
 }
-.awards-info-right h3 {
-  text-align: center;
-}
 #awards h2 {
   display: block;
   color: #374054;
@@ -569,16 +572,6 @@ footer {
   float: left;
   width: 50;
   height: 50;
-  padding: 20px;
-}
-.awards-image-right {
-  float: right;
-}
-.awards-info-right {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 50px;
   padding: 20px;
 }
 .awards-info-left {
@@ -777,7 +770,17 @@ footer {
   .project-image {
     display: none;
   }
+  .awards-image-left{
+    display: none;
+  }
   .project-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    top: auto;
+    transform: none;
+  }
+  .awards-info-left {
     position: relative;
     margin: 0;
     padding: 30px 15px;
